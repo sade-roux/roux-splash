@@ -63,9 +63,10 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
 .m-verb{font-family:'Italiana',serif;font-weight:400;font-size:28px;letter-spacing:.04em;text-transform:none;color:var(--green);margin:0 0 16px;opacity:1;-webkit-text-stroke:.4px currentColor}
 .moment.ink .m-verb{color:#8AA896}
 .m-divider{width:52px;height:1px;background:currentColor;opacity:.3;margin:26px 0}
-.m-line{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,2.6vw,27px);line-height:1.5;max-width:34ch}
+.m-line{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,2.6vw,27px);line-height:1.32;max-width:34ch}
+.m-line + .m-line{margin-top:.85em}
 .moment.ink .m-line{color:rgba(236,228,208,.9)}
-.m-sign{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:25px;color:var(--green);margin-top:48px}
+.m-sign{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:25px;color:var(--green);margin-top:30px}
 .moment.ink .m-sign{color:var(--greenSoft)}
 
 /* ---------- WEDGE / FOUNDER / FOOTER ---------- */
@@ -99,7 +100,7 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
     <div class="logo" role="img" aria-label="ROUX">R<span class="spiral"></span>UX</div>
     <div class="wake">hey, margaux</div>
     <div class="rule"></div>
-    <form class="capture" id="signupForm" action="https://app.kit.com/forms/9520877/subscriptions" method="post" data-sv-form="true">
+    <form class="capture" id="signupForm" action="#" method="post" data-sv-form="true">
       <div class="form-row"><input type="email" name="email_address" placeholder="you@youremail.com" required aria-label="Email address"/><button class="btn" type="submit">join the list</button></div>
       <p class="fineprint" style="font-size:15px;color:var(--ink);opacity:1;">Be the first to meet her.</p>
       <p class="thanks" id="thanksMsg">You're on the list. Margaux will be in touch. &#10022;</p>
@@ -118,7 +119,8 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
         <div class="m-verb">She styles.</div>
         <div class="m-quote">"Pack me for Paris."</div>
         <div class="m-divider"></div>
-        <div class="m-line">Three days, your mom, second week of March. I checked — it'll be cold and bright. I know your closet, so give me five minutes and I'll have the whole trip pulled, down to the shoe.</div>
+        <div class="m-line">Three days. Second week of March.<br>I checked — it'll be cold and bright.</div>
+        <div class="m-line">I know your closet, so give me five minutes and I'll have the whole trip pulled, down to the shoe.</div>
         <div class="m-sign">— margaux</div>
       </div>
     </div>
@@ -132,7 +134,10 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
         <div class="m-verb">She shops.</div>
         <div class="m-quote">"Find me a dress for a June wedding in Cancun."</div>
         <div class="m-divider"></div>
-        <div class="m-line">Beachfront, so something that moves in the heat. In your size and your budget, across new and resale — including a few you'd never have found on your own. I edit. You just choose.</div>
+        <div class="m-line">Beachfront, so something that moves in the heat.</div>
+        <div class="m-line">In your size and your budget, across new and resale — including a few you'd never have found on your own.</div>
+        <div class="m-line">I edit.</div>
+        <div class="m-line">You choose.</div>
         <div class="m-sign">— margaux</div>
       </div>
     </div>
@@ -144,9 +149,10 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
       <div class="m-top"><div class="m-tag">What she<br>does</div><div class="m-mark"><span class="sp"></span></div></div>
       <div class="m-body">
         <div class="m-verb">She resells.</div>
-        <div class="m-quote" style="font-size:clamp(26px,3.75vw,44px);">"Sell this Theory blazer — I haven't worn it in years."</div>
+        <div class="m-quote" style="font-size:clamp(24px,3vw,38px);">"Sell this Theory blazer — I haven't worn it in two years."</div>
         <div class="m-divider"></div>
-        <div class="m-line">You take the photos. I do everything else — price it, write it, list it, hand you the shipping label, and delist it the second it sells.</div>
+        <div class="m-line">You take the photos.</div>
+        <div class="m-line">I do everything else — price it, write it, list it, hand you the shipping label, and delist it the second it sells.</div>
         <div class="m-sign">— margaux</div>
       </div>
     </div>
@@ -156,9 +162,9 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
   <!-- CLOSING — BONE (wedge + CTA together) -->
   <section class="sec bone wedge footcta" id="signup">
     <div class="inner">
-      <p style="margin-bottom:44px;">A stylist. A shopper. A resale concierge. The kind of help most women have never had — <b>now in one place</b>, and she already knows you.</p>
+      <p style="margin-bottom:44px;">Stylist.<br>Shopper.<br>Resale concierge.<br>The kind of help most women have never had — <b>now in one place</b>, and she already knows you.</p>
       <h2>Your closet is waiting to meet you.</h2>
-      <form class="capture" id="signupForm2" action="https://app.kit.com/forms/9520877/subscriptions" method="post" data-sv-form="true">
+      <form class="capture" id="signupForm2" action="#" method="post" data-sv-form="true">
         <div class="form-row"><input type="email" name="email_address" placeholder="you@youremail.com" required aria-label="Email address"/><button class="btn" type="submit">join the list</button></div>
         <p class="fineprint" style="font-size:14px;color:#564e44;opacity:1;margin-top:34px;white-space:nowrap;">We'll only tell you when Roux is ready. Unsubscribe anytime.</p>
         <p class="thanks" id="thanksMsg2">You're on the list. Margaux will be in touch. &#10022;</p>
@@ -177,7 +183,34 @@ body{background:var(--cream);color:var(--ink);font-family:'Schibsted Grotesk',sy
 <script>
 const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')})},{threshold:.15});
 document.querySelectorAll('.moment').forEach(el=>io.observe(el));
-function handle(fid,tid){const f=document.getElementById(fid);if(!f)return;const t=document.getElementById(tid);f.addEventListener('submit',function(e){e.preventDefault();const btn=f.querySelector('button[type=submit]');const data=new FormData(f);if(btn){btn.disabled=true;btn.textContent='joining…';}fetch(f.getAttribute('action'),{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){return r.json().catch(function(){return{};});}).then(function(){f.querySelector('.form-row').style.display='none';const fp=f.querySelector('.fineprint');if(fp)fp.style.display='none';t.style.display='block';}).catch(function(){f.querySelector('.form-row').style.display='none';const fp=f.querySelector('.fineprint');if(fp)fp.style.display='none';t.style.display='block';});});}
+async function subscribeToKlaviyo(email) {
+  try {
+    const res = await fetch(
+      "https://a.klaviyo.com/client/subscriptions/?company_id=V7sL5U",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "revision": "2024-10-15",
+        },
+        body: JSON.stringify({
+          data: {
+            type: "subscription",
+            attributes: {
+              profile: { data: { type: "profile", attributes: { email: email } } },
+            },
+            relationships: { list: { data: { type: "list", id: "WcHkAe" } } },
+          },
+        }),
+      }
+    );
+    return res.ok;
+  } catch (e) {
+    console.error("Klaviyo subscribe failed:", e);
+    return false;
+  }
+}
+function handle(fid,tid){const f=document.getElementById(fid);if(!f)return;const t=document.getElementById(tid);f.addEventListener('submit',async function(e){e.preventDefault();const btn=f.querySelector('button[type=submit]');const email=f.querySelector('input[type=email]').value;if(btn){btn.disabled=true;btn.textContent='joining…';}await subscribeToKlaviyo(email);f.querySelector('.form-row').style.display='none';const fp=f.querySelector('.fineprint');if(fp)fp.style.display='none';t.style.display='block';});}
 handle('signupForm','thanksMsg');handle('signupForm2','thanksMsg2');
 </script>
 </body></html>
